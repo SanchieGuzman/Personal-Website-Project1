@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+}
+
+body{
+    min-height: 100vh;
+}
+
+
+header{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo{
+    padding: 45px;
+}
+
+.name{
+    color: white;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+}
+
+.subtext{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;/*to remove the dots*/
+    margin-left: 25px;/*gives space between the items in the list*/
+    margin-right: 25px;
+}
+
+header ul li a{
+    text-decoration: none;/*removes the underline*/
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(85, 85, 85); /*text color*/
+    border-radius:20px; /*the smoothness of the border(curvature)*/
+}
+
+header ul li a.active{
+    background: rgb(107, 107, 107);
+    color: white;
+}
+
+header ul li a:hover{
+    background: rgb(107, 107, 107);
+    color: white;
+}
+
+.text{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    justify-content: center;
+}
+
+.text:hover{
+    transition-duration: 2s;
+    transform: scale(1.1);
+}
+
+.educ{
+    position: relative;
+    top: 30%;
+    color: rgb(73, 73, 73);
+    text-align: center;
+    font-size: 40px;
+    z-index: 3;
+}
+
+.piccont{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 40%;
+    z-index: 10;
+    padding: 3%;
+}
+
+.pic1{
+    height: 100%;
+    width: 60%;
+    border-radius: 20%;
+    opacity: .8;
+}
+
+.pic1:hover{
+    transition-duration: 2s;
+    transform: scale(1.2);
+}
+
+
+.maincont{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    opacity: 0.70;
+}
+
+.img1{
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+}
+
+body{
+    min-height: 100vh;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo{
+    padding: 45px;
+}
+
+.name{
+    color: white;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+}
+
+.subtext{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;/*to remove the dots*/
+    margin-left: 25px;/*gives space between the items in the list*/
+    margin-right: 25px;
+}
+
+header ul li a{
+    text-decoration: none;/*removes the underline*/
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /*text color*/
+    border-radius:20px; /*the smoothness of the border(curvature)*/
+}
+
+header ul li a:hover{
+    background: white;
+    color: #3d3d3d;
+}
+
+.firstcont{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#bg1{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    filter: blur(9px);
+    -webkit-filter: blur(1px);
+}
+
+.profilecont{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    position: absolute;
+    top: 20%;
+    width: 190px;
+    border-radius: 50%;
+}
+
+.textcont{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    height: 23%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 53%;
+    padding: 20px;
+    text-align: center;
+}
+
+.text{
+    color: aliceblue;
+    position: absolute;
+    
+}
