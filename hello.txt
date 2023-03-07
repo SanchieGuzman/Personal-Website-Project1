@@ -1,0 +1,4 @@
+wazzup
+git branch -c to create
+git switch -c to switch to a new branch 
+git branch -d branch name to delete branch
